@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 
 
 
-df = pd.read_csv('/Users/nataliafarquharson/Documents/NeuralNetworks/venv/Titanic-Dataset.csv')
+df = pd.read_csv('Titanic-Dataset.csv')
 
 # drop un-needed data
 df.drop(['Embarked', 'Cabin', 'Ticket'], axis=1, inplace=True)
